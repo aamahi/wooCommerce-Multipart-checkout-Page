@@ -1,0 +1,20 @@
+{
+    "name": "mahi/multipart-checkout",
+    "description": "WooCommerce Multipart Checkout page Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "mahi",
+            "email": "hello@abdullahmahi.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Multipart\\Checkout\\" : "includes/"
+        },
+        "files": []
+    }
+}
